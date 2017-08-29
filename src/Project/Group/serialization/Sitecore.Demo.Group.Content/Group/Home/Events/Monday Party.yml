@@ -1,0 +1,27 @@
+﻿---
+ID: "1a772f60-024b-4eac-a992-d87a5c571b32"
+Parent: "e42c5c9f-70ba-475a-9ef5-f1c92edf92d1"
+Template: "157f1c64-19cf-416c-aff8-93fd76193a07"
+Path: /sitecore/content/Group/Home/Events/Monday Party
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ef47557-4207-42b0-b164-307703a913ab"
+      Hint: Description
+      Value: <p>This party takes place on a Monday</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170829T143317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "86e8829c-5711-4bba-ae20-e2a1b81fdc92"
+      Hint: Date
+      Value: 20170827T230000Z
+    - ID: "e6f0eb4c-76c6-4780-8e84-935c392791e4"
+      Hint: Title
+      Value: Monday Party

@@ -22,6 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		src\Project\Group\code\App_Config\Include\Project\z.Sitecore.Demo.Group.DevSettings.config = src\Project\Group\code\App_Config\Include\Project\z.Sitecore.Demo.Group.DevSettings.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{640A409A-44D3-46C9-A02A-D39C32CE7169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{A63FB501-3D56-4AB1-A702-38EBB3E146F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Events", "src\Feature\Events\code\Sitecore.Feature.Events.csproj", "{EFC59F61-B151-444E-8C68-A8E19BE7186B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +38,10 @@ Global
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC59F61-B151-444E-8C68-A8E19BE7186B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC59F61-B151-444E-8C68-A8E19BE7186B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC59F61-B151-444E-8C68-A8E19BE7186B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC59F61-B151-444E-8C68-A8E19BE7186B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +49,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9D180712-0180-4814-95C8-C9A0732EC28D} = {6F81D5A7-DD8E-40CF-A696-7E14B6309CD0}
 		{4A74623C-08D4-4984-A7A5-E482AF0B0630} = {9D180712-0180-4814-95C8-C9A0732EC28D}
+		{A63FB501-3D56-4AB1-A702-38EBB3E146F9} = {640A409A-44D3-46C9-A02A-D39C32CE7169}
+		{EFC59F61-B151-444E-8C68-A8E19BE7186B} = {A63FB501-3D56-4AB1-A702-38EBB3E146F9}
 	EndGlobalSection
 EndGlobal
